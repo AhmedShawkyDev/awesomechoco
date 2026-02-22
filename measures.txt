@@ -1,0 +1,19 @@
+فيه حاجات عاوز اعملها ميشرز عشان ابدا استخدمها ف تحديد حاجات معينه
+total sales
+total cost
+total shipments
+total boxes
+total profit
+profit %
+low box shipment ount
+low box shipment %
+التغيرات الدوريه لشهر ب شهر 
+التغيرات الدوريه لسنه ب سنه
+
+
+
+
+mom boxes change %
+mom costs changes %
+mom profit change %
+mom shipment change %

@@ -1,0 +1,71 @@
+Latest MOM Sales Change % = 
+var ld = [Latest date]
+var this_month_sales = [Total Sales Latest Month]
+var prev_month_sales =CALCULATE([Total Sales],'calendar'[Start of Month] =EDATE(ld,-1))
+return DIVIDE(this_month_sales-prev_month_sales,prev_month_sales)
+
+Total Sales Latest Month = 
+var ld = [Latest date]
+RETURN
+CALCULATE([Total Sales],'calendar'[Start of Month]=ld)
+
+total cost
+Total Cost Lastes Month = 
+var ld =[latest date]
+return 
+calcualte ([total sales],"claender"[start fo month]=ld)
+
+latest mom cost change % =
+var ld =[latest date]
+var this_monther_cost = [Total Cost Lastes Month]
+var prev_month_cost = calculate([total cost],"calender"[start of month]=edate(ld,-1))
+return divide(this_month_cost-prev_month_cost,prev_month_cost)
+
+total box
+Total Box Latest Month = 
+var ld =[latest date]
+return 
+calculate ([total boxes],"calnder"[start of month]=ld)
+
+latest mom boxes change % = 
+var ld=[latest boxes]
+var this_month_box = [Total Box Latest Month]
+var prev_month_box = calculate([total boxes] ,"calender"[start od month]=edate(ld,-1))
+return divide(this_month_boxes-prev_month_boxes,prev_month_boxes)
+
+
+total shipemnt
+Total Shipment Latest Month = 
+var ld=[latest date]
+return calculate ([total shipment],calculate[start of th month]=ld)
+
+latest MOM shipment % =
+var ld=[latest shipment]
+var this_month_shipment = [total shipment latest month]
+var prev_month_shipment =calculate([total shipment],"calender"[start of month]=edate(ld,-1))
+return divide(this_month_shipment-prev_month_shipment,prev_month_shipment)
+
+total profit
+Total Profit Latest Month =
+var ld=[latest date]
+return  calculate([total profit],calender[start of month] =ld
+
+Latest MOM profit % 
+var ld=[latest date]
+var this_month_shipment =[total profit latest month]
+var prev_month_shipment =calculate([total shipment],calender[start of month]=edate(ld,-1))
+return calculate(this_month_shipment-prev_month_shipment,prev_month_shipemnt)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
